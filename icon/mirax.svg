@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.000065mm"
+   height="50mm"
+   viewBox="0 0 50.000065 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="mirax.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1745121"
+     inkscape:cx="89.215416"
+     inkscape:cy="115.88807"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2849">
+      <stop
+         style="stop-color:#ececec;stop-opacity:1;"
+         offset="0"
+         id="stop2845" />
+      <stop
+         style="stop-color:#ececec;stop-opacity:0.97566909;"
+         offset="1"
+         id="stop2847" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2849"
+       id="radialGradient2851"
+       cx="160.65147"
+       cy="88.002764"
+       fx="160.65147"
+       fy="88.002764"
+       r="11.841759"
+       gradientTransform="matrix(1,0,0,1.0037917,0,-0.33368378)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-39.244366,-109)">
+    <path
+       id="rect2098"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke-width:0.232;stroke-miterlimit:4.5;paint-order:stroke markers fill;stop-color:#000000"
+       d="m 85.818923,140.85483 c -0.502805,0.6047 -1.209301,1.17272 -2.122869,1.67331 l -12.098969,6.62979 c -4.073573,2.23226 -10.643199,2.25616 -14.730317,0.0531 l -12.049873,-6.49439 c -0.922472,-0.49718 -1.635433,-1.06453 -2.142512,-1.66995 l -0.04339,0.023 c -4.526195,2.4803 -4.513849,6.44757 0.0274,8.89512 l 13.388809,7.21621 c 4.541244,2.44754 11.840713,2.42134 16.366909,-0.0586 l 13.443585,-7.36672 c 4.526196,-2.48031 4.513849,-6.44758 -0.0274,-8.89516 z" />
+    <path
+       id="rect2098-1"
+       style="fill:#cccccc;fill-rule:evenodd;stroke-width:0.232;stroke-miterlimit:4.5;paint-order:stroke markers fill;stop-color:#000000"
+       d="m 83.065087,132.02186 c -0.405888,0.39455 -0.91415,0.76673 -1.530134,1.10433 l -10.754873,5.89335 c -3.620952,1.98424 -9.460736,2.00527 -13.093727,0.0474 l -10.710946,-5.77267 c -0.623731,-0.33614 -1.138131,-0.70861 -1.548221,-1.10428 l -0.634586,0.34769 c -4.073574,2.23224 -4.062831,5.80255 0.02429,8.00538 l 12.049872,6.49441 c 4.087119,2.20282 10.656753,2.1789 14.730326,-0.0531 l 12.098967,-6.62973 c 4.073575,-2.23227 4.062832,-5.80255 -0.02429,-8.00542 z" />
+    <path
+       id="rect2098-1-5"
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke-width:0.232;stroke-miterlimit:4.5;paint-order:stroke markers fill;stop-color:#000000"
+       d="m 80.250796,123.15659 c -0.259207,0.19895 -0.550664,0.38937 -0.877464,0.56847 l -9.410248,5.15639 c -3.168336,1.73625 -8.278281,1.75489 -11.457153,0.0419 l -9.372011,-5.0515 c -0.333458,-0.17973 -0.629798,-0.37166 -0.89348,-0.57238 l -1.286738,0.70492 c -3.620951,1.98423 -3.611295,5.15818 0.0217,7.11626 l 10.710947,5.77261 c 3.632991,1.95808 9.472775,1.93706 13.093727,-0.0474 l 10.754873,-5.89339 c 3.620955,-1.98424 3.611288,-5.15761 -0.0217,-7.11569 z" />
+    <rect
+       style="fill:url(#radialGradient2851);fill-rule:evenodd;stroke-width:0.253265;stroke-miterlimit:4.5;paint-order:stroke markers fill;stop-color:#000000;fill-opacity:1"
+       id="rect2098-1-5-3"
+       width="23.683517"
+       height="23.773319"
+       x="148.80971"
+       y="76.116104"
+       ry="0"
+       transform="matrix(0.88028562,0.47444412,-0.87696068,0.48056214,0,0)"
+       rx="6.5183825" />
+  </g>
+</svg>
