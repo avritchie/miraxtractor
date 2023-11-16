@@ -284,4 +284,9 @@ public class MRXSLevel {
         return new int[]{(int) Double.parseDouble(masterSlide.INI.get("LAYER_0_LEVEL_" + levelNumber + "_SECTION", "OVERLAP_X")),
             (int) Double.parseDouble(masterSlide.INI.get("LAYER_0_LEVEL_" + levelNumber + "_SECTION", "OVERLAP_Y"))};
     }
+
+    public double[] getScaling() {
+        return new double[]{Double.parseDouble(masterSlide.INI.get("LAYER_0_LEVEL_" + levelNumber + "_SECTION", "MICROMETER_PER_PIXEL_X")),
+            Double.parseDouble(masterSlide.INI.get("LAYER_0_LEVEL_" + levelNumber + "_SECTION", "MICROMETER_PER_PIXEL_Y"))};
+    }
 }
