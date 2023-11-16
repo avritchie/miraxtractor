@@ -14,11 +14,13 @@ public abstract class ExtractThread extends SwingWorker<Void, Integer> {
     int id;
     Taskbar tbar;
     public List<Exception> exceptionList;
+    boolean win;
 
     public ExtractThread(MRXSLevel level, int progressID) {
         this.frame = MRXS.frame;
         this.level = level;
         this.id = progressID;
+        this.win = System.getProperty("os.name").toLowerCase().contains("windows");
         this.exceptionList = new ArrayList<>();
         try {
             tbar = Taskbar.getTaskbar();
@@ -45,7 +47,9 @@ public abstract class ExtractThread extends SwingWorker<Void, Integer> {
             MRXS.syncCounter[id] = i;
             int value = IntStream.of(MRXS.syncCounter).sum() / MRXS.syncCounter.length;
             frame.progressBar.setValue(value);
-            tbar.setWindowProgressValue(frame, value / 10);
+            if (tbar != null & win) {
+                tbar.setWindowProgressValue(frame, value / 10);
+            }
         }
         super.process(chunks);
     }
@@ -58,7 +62,9 @@ public abstract class ExtractThread extends SwingWorker<Void, Integer> {
                 frame.progressBar.setValue(frame.progressBar.getMaximum());
                 frame.buttonsEnabled(true);
                 frame.readyMessage();
-                tbar.setWindowProgressValue(frame, -1);
+                if (tbar != null & win) {
+                    tbar.setWindowProgressValue(frame, -1);
+                }
             }
             if (!exceptionList.isEmpty()) {
                 MRXS.error(exceptionList.get(0));

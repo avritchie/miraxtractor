@@ -105,7 +105,7 @@ public class MRXSLevel {
                     for (Entry<Integer, int[]> es : levelTileData.entrySet()) {
                         try {
                             byte[] firstTile = readASingleTile(sourceDataFile, es.getKey());
-                            Files.write(new File(dir.getPath() + "\\0" + es.getValue()[4] + "_0" + es.getValue()[3] + "." + ff).toPath(), firstTile);
+                            Files.write(new File(dir.getPath() + "/0" + es.getValue()[4] + "_0" + es.getValue()[3] + "." + ff).toPath(), firstTile);
                             done[0]++;
                             if (done[0] % 10 == 0) {
                                 publish(1000 * done[0] / levelTileData.size());
