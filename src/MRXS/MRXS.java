@@ -179,7 +179,7 @@ public class MRXS extends javax.swing.JFrame {
         );
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Light", 0, 24)); // NOI18N
-        jLabel3.setText("v1.0.3");
+        jLabel3.setText("v1.0.4");
 
         extractPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Extraction settings"));
 
