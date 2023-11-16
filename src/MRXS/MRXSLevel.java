@@ -238,7 +238,13 @@ public class MRXSLevel {
     }
 
     public byte[] readASingleTile(byte[] fileBytes, int x, int y) {
-        return readASingleTile(fileBytes, indexCoordinateMap.get(new Point(x, y)));
+        Point indexPoint = new Point(x, y);
+        if (indexCoordinateMap.containsKey(indexPoint)) {
+            int index = indexCoordinateMap.get(indexPoint);
+            return readASingleTile(fileBytes, index);
+        }
+        //this xy points to an empty square
+        return null;
     }
 
     public byte[] readASingleTile(byte[] fileBytes, int tileIndex) {
